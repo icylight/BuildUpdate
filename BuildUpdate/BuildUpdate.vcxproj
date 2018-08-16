@@ -49,6 +49,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(ProjectDir)..\..\sdks;$(ProjectDir)..\..\sdks\fr;$(ProjectDir)..\..\sdks\fr\cuteui;.;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProjectDir)..\..\sdks\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
