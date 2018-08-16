@@ -28,11 +28,11 @@ typedef struct _TA_LZMA_HEADER {
 
 #define OPENURL ""
 
-#ifdef _DEBUG
+#ifdef _FOR_DEBUG
 #define URL_FIX L"http://localhost:8000/MissEvanFM/"
 #else
 #define URL_FIX L"http://static.missevan.com/app/win/"
-#endif  // _DEBUG
+#endif  // _FOR_DEBUG
 
 #define UPDATE_INFO_FILENAME L"update.json"
 
