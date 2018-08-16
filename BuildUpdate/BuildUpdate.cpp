@@ -29,7 +29,7 @@ typedef struct _TA_LZMA_HEADER {
 #define OPENURL ""
 
 #ifdef _DEBUG
-#define URL_FIX L"http://localhost:8000/MissEvanFM"
+#define URL_FIX L"http://localhost:8000/MissEvanFM/"
 #else
 #define URL_FIX L"http://static.missevan.com/app/win/"
 #endif  // _DEBUG
@@ -37,6 +37,7 @@ typedef struct _TA_LZMA_HEADER {
 #define UPDATE_INFO_FILENAME L"update.json"
 
 static wchar_t* sz_jmp_filename[] = {L"BuildUpdate.exe", L"TaLzma.exe",
+                                     L"BuildUpdate_d.exe",
                                      UPDATE_INFO_FILENAME};
 
 #define JMP_FILE_COUNT (sizeof(sz_jmp_filename) / sizeof(wchar_t*))
